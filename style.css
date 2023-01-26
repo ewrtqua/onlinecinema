@@ -116,12 +116,20 @@ main{
     flex-direction: column;
     color: white;
     justify-content: center;
-
+    
+}
+article {
+    display: flex;
+}
+.films.other {
+    display: flex;
+    flex-direction: column;
 }
 .foto img{
     margin-right: 15px;
     border-radius: 15px;
     height: 150px;
+    
 
 }
 .foto:hover{
@@ -193,7 +201,7 @@ main{
     margin-top: 15px;
     align-items: flex-start;
     transition: .3s;
-    flex-direction: row;
+    flex-direction: row-reverse;
     color: white;
     justify-content: center;
 }
