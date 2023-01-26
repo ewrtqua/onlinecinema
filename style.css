@@ -1,0 +1,251 @@
+header{
+    background: hwb(271deg 3% 91%);
+}
+.logo img{
+    height: 40px;
+}
+.help img{
+    height: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Mitr', sans-serif;
+    background: #19071a;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header li a,header li{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+   
+}
+h2{
+    color: whitesmoke;
+}
+h4{
+    color: whitesmoke;
+}
+.fon img{
+    border: 1px solid #19071a;
+    border-radius: 20px;
+    width: 1617px;
+    height: 256px;
+    margin: 0 auto;
+}
+.fon {
+    display: flex;
+    justify-content: center;
+}
+main{   
+    width: 1900px;
+    margin: 0 auto;
+
+}
+.news{
+    border: 1px solid 19071a;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    transition: .3s;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.news img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 150px;
+
+}
+.news:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px whitesmoke;
+    cursor: pointer;
+
+}
+.card{
+    border: 1px solid 19071a;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+    transition: .3s;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+
+.card img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 150px;
+
+    
+}
+.neww{
+    display: flex;
+}
+.intresting {
+    display: flex;
+}
+.foto{
+    border: 1px solid 19071a;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    transition: .3s;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+
+}
+.foto img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 150px;
+
+}
+.foto:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px whitesmoke;
+    cursor: pointer;
+}
+.anime{
+    border: 1px solid 19071a;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+    transition: .3s;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+.anime:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px whitesmoke;
+    cursor: pointer;
+}
+.anime img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 150px;
+
+}
+.serial{
+    border: 1px solid 19071a;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+    transition: .3s;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+.serial img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 150px;
+}
+.serial:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px whitesmoke;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px whitesmoke;
+    cursor: pointer;
+}
+.films img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 55px;
+}
+.films{
+    border: 1px solid 19071a;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+    transition: .3s;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+
+aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    overflow: hidden;
+    background: blue;
+    transition: .3s
+}
+aside:hover {
+    width:150px;
+}
+.sotrudnik{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 230px;
+    transition: .3s;
+    display: flex;
+
+    
+}
+.sotrudnik img{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+.sotrudnik:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #000;
+    cursor: pointer;
+}
+
+.banners{
+    display: flex;
+}
+
+@media (min-width: 1921px) { 
+    header{
+        justify-content: center;
+    }
+ }
+ @media (max-width: 910px) { 
+    main{
+        width: 95%;
+    }
+ }
+ 
+
